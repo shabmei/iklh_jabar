@@ -5,19 +5,12 @@ import altair as alt
 
 st.set_page_config(layout='centered')
 
-# from PIL import Image
-# import requests
-# from io import BytesIO
-
-# #Menambahkan gambar
-# image_url = "https://github.com/shabmei/iklh_jabar/blob/main/dataset/teh.jpg"
-
-# response = requests.get(image_url)
-
-# image = Image.open(BytesIO(response.content))
-# st.image(image, width=700)
+from PIL import Image
+import requests
+from io import BytesIO
 
 st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
+st.caption("Oleh: Shabrina Ainimeiko")
 
 with st.sidebar:
     # st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
