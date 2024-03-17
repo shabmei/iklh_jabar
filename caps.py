@@ -9,11 +9,15 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
+# st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
+image = Image.open(requests.get('https://raw.githubusercontent.com/shabmei/iklh_jabar/main/dataset/iklh.jpg', stream=True).raw)
+# left_co, cent_co,last_co = st.columns(3)
+# with cent_co:
+st.image(image, width=700)
 st.caption("Oleh: Shabrina Ainimeiko")
 
 with st.sidebar:
-    # st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
+    st.title("Korelasi Indeks Kualitas Lingkungan Hidup (IKLH) dan Kepadatan Penduduk di Jawa Barat")
     analysis_option = st.radio("Pilih Halaman", ["Pendahuluan", "Tren per Tahun", "Perbandingan Tren Indikator", "Uji Korelasi", "Kesimpulan"])
     
 if analysis_option == "Pendahuluan":
