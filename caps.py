@@ -215,6 +215,6 @@ if analysis_option == "Kesimpulan":
     st.header("Kesimpulan")
     st.markdown("""
         1. Adanya tren peningkatan signifikan dalam Indeks Kualitas Lingkungan Hidup (IKLH) sejak 2018 menunjukkan kemungkinan perbaikan kondisi lingkungan.
-        2. Tren peningkatan signifikan dalam Indeks Kualitas Lingkungan Hidup (IKLH) setelah tahun 2018 menandakan kemungkinan perbaikan kondisi lingkungan, sementara penurunan kepadatan penduduk pada tahun 2022 menunjukkan adanya dinamika yang berpotensi mempengaruhi kondisi sosial-lingkungan.
+        2. Penurunan kepadatan penduduk pada tahun 2022 menunjukkan adanya dinamika yang berpotensi mempengaruhi kondisi sosial-lingkungan.
         3. Penting untuk diingat bahwa korelasi tidak selalu menunjukkan hubungan sebab-akibat yang langsung. Ini menegaskan bahwa meskipun terdapat korelasi positif antara Indeks Kualitas Air (IKA) dan Indeks Kualitas Udara (IKU) dengan kepadatan penduduk, serta korelasi negatif antara Indeks Kualitas Lingkungan Hidup (IKLH) dan kepadatan penduduk, tidak dapat disimpulkan secara langsung bahwa satu variabel menyebabkan perubahan pada variabel lainnya.
     """)
